@@ -1,0 +1,83 @@
+:root {
+    --purple: #64129e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--purple);
+    margin: auto 0;
+    font-size: 16px;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+nav p, span{
+    color: black;
+    margin: auto 0;
+    font-size: 16px;
+}
+
+section {
+    background-color: white;
+    color: black;
+}
+
+.start-quiz {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px auto 0 auto;
+    max-width: 800px;
+}
+
+.start-quiz h1 {
+    font-size: 35px;
+}
+
+.start-quiz p {
+    font-size: 16px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.quiz {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px auto 0 auto;
+    max-width: 800px;
+}
+
+button {
+    background-color: var(--purple);
+    color: white;
+    border-color: var(--purple);
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button:hover {
+    opacity: 0.5;
+}

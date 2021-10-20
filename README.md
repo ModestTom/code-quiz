@@ -5,7 +5,7 @@
 
   ## Example Photo ##
   ![Sample](./assets/images/code-quiz.png) \
-  Link to deployed site []
+  Link to deployed site: [https://modesttom.github.io/code-quiz/](https://modesttom.github.io/code-quiz/)
 
   ## Contact ##
   * Email: thomas.spaeth01@gmail.com
